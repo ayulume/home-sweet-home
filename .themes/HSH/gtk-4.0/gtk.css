@@ -1,0 +1,10 @@
+/* NoahDark GTK 4 user CSS */
+@define-color nd_bg #0e1013;
+@define-color nd_surface #15181d;
+@define-color nd_surface2 #1d2127;
+@define-color nd_border #2a2f37;
+@define-color nd_fg #e6e9ef;
+@define-color nd_accent #b07adf;
+
+window, .background { background-color: @nd_bg; color: @nd_fg; }
+headerbar { background: @nd_surface2; color: @nd_fg; border-bottom: 1px solid @nd_border; }

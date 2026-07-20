@@ -1,0 +1,18 @@
+/* NoahDark GTK 3 */
+@define-color nd_bg #0e1013;
+@define-color nd_surface #15181d;
+@define-color nd_surface2 #1d2127;
+@define-color nd_border #2a2f37;
+@define-color nd_fg #e6e9ef;
+@define-color nd_muted #b5bcc9;
+@define-color nd_accent #b07adf;
+@define-color nd_accent_hover #c39af0;
+@define-color nd_accent_active #9a5dd7;
+@define-color nd_destructive #e06c75;
+@define-color nd_success #89d185;
+@define-color nd_warning #e5c07b;
+
+.background, window, .dialog, .popover, .menu, .tooltip {
+  background-color: @nd_bg;
+  color: @nd_fg;
+}
