@@ -1,0 +1,2 @@
+spawn-at-startup "bitwarden-desktop"
+spawn-at-startup "discord"
